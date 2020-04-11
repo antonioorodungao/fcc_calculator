@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./calculator.css" />
+  </head>
+  <body>
+    <div
+      id="calculator"
+      class="container m-5 bg-light"
+      style="
+        width: 500px;
+        height: 750px;
+        border-radius: 10px;
+        border: solid gray 2px;
+      "
+    >
+      <h2>CALCULATOR</h2>
+      <div class="row justify-content-center">
+        <input
+          id="display"
+          type="text"
+          class="form-control m-5 text-right"
+          disabled
+          style="height: 90px; width: 400px; font-size: 60px;"
+        />
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-xs-4 button">
+          <span class="fab">AC</span>
+        </div>
+        <div class="col-xs-4 button">
+          <span class="fab">+/-</span>
+        </div>
+        <div class="col-xs-4 button">
+          <span id="percentage" class="fab">%</span>
+        </div>
+        <div class="col-xs-4 button">
+          <span id="divide" class="fab">/</span>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-xs-4 button">
+          <span id="seven" class="fab">7</span>
+        </div>
+        <div class="col-xs-4 button">
+          <span id="eight" class="fab">8</span>
+        </div>
+        <div class="col-xs-4 button">
+          <span id="nine" class="fab">9</span>
+        </div>
+        <div class="col-xs-4 button">
+          <span id="multiply" class="fab">*</span>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-xs-4 button">
+          <span id="four" class="fab">4</span>
+        </div>
+        <div class="col-xs-4 button">
+          <span id="five" class="fab">5</span>
+        </div>
+        <div class="col-xs-4 button">
+          <span id="six" class="fab">6</span>
+        </div>
+        <div class="col-xs-4 button">
+          <span id="subtract" class="fab">-</span>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-xs-4 button">
+          <span id="one" class="fab">1</span>
+        </div>
+        <div class="col-xs-4 button">
+          <span id="two" class="fab">2</span>
+        </div>
+        <div class="col-xs-4 button">
+          <span id="three" class="fab">3</span>
+        </div>
+        <div class="col-xs-4 button">
+          <span id="add" class="fab">+</span>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-xs-4 button">
+          <span id="clear" class="fab">C</span>
+        </div>
+        <div class="col-xs-4 button">
+          <span id="zero" class="fab">0</span>
+        </div>
+        <div class="col-xs-4 button">
+          <span id="decimal" class="fab">.</span>
+        </div>
+        <div class="col-xs-4 button">
+          <span id="equals" class="fab">=</span>
+        </div>
+      </div>
+    </div>
+    <script
+      src="http://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="calculator.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
